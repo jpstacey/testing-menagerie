@@ -54,4 +54,6 @@ Determine the point at which the testable code is overwhelmed by traffic.
 
 -----------
 
+*I wrote this after not being able to find a similarly straightforward resource, that showed on what axes you could plot the different test types. I'd be happy to be corrected on anything substantial in this document, and even happier if some other document exists that supersedes it. PRs/issues/queries welcome.
+
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence: Attribution-ShareAlike 4.0 International" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a>
