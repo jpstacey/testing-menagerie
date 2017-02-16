@@ -20,6 +20,8 @@ Medium: testable code involves more than one layer or unit; comined behaviour te
 
 Largest: entire application invoked for each test.
 
+*(aka "end-to-end testing", but describing the full extent of the code stack, not the full extent of the user journey in [Behavioural testing](#behavioural) below.)*
+
 ## Assertion
 
 Confirm testable code works successfully, by defining success as:
@@ -48,9 +50,11 @@ Confirm the current state of development works as required.
 
 Determine the capability of the testable code to withstand heavy traffic.
 
-### Smoke
+### [Smoke](https://en.wikipedia.org/wiki/Smoke_testing_(software))
 
-Determine the point at which the testable code is overwhelmed by traffic.
+Preface more granular (and possibly slower) testing, by looking for simple but severe failures only, possibly using a subset of the overall test suite.
+
+*(Sometimes used instead to describe a subset of [Performance testing](#performance), when the traffic is increased until the code "catches fire.")*
 
 -----------
 
