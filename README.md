@@ -26,13 +26,17 @@ Largest: entire application invoked for each test.
 
 Confirm testable code works successfully, by defining success as:
 
-### Behavioural
+### Behaviour
 
-Human-like progressing from one part of the test to another, checking elements of a journey in turn.
+Testing of code's behaviours, treating the codebase as a black box.
+
+*(aka ["black-box testing"](https://en.wikipedia.org/wiki/Black-box_testing).)
+
+*([Behavio(u)r-driven development](https://en.wikipedia.org/wiki/Behavior-driven_development) is broadly a behavioural implementation of [Unit testing](#unit), carried out within the methodology of test-driven development.)
 
 ### Functional
 
-Procedural checking of elements of functionality, each independently from the next.
+Testing of code's functionality, often with one eye to the internals and how they might fail.
 
 ## Reason
 
