@@ -4,7 +4,7 @@ Different breeds of automated testing, for comparative purposes.
 
 Forks, requests and PRs welcome. Please reuse under creative commons (see footer.)
 
-## Scope
+## Scope: where are we testing?
 
 Test correctness at the following sizes:
 
@@ -22,7 +22,7 @@ Largest: entire application invoked for each test.
 
 *(aka "end-to-end testing", but describing the full extent of the code stack, not the full extent of the user journey in [Behavioural testing](#behavioural) below.)*
 
-## Assertion
+## Assertion: what are we testing?
 
 Confirm testable code works successfully, by defining success as:
 
@@ -38,7 +38,11 @@ Testing of code's behaviours, treating the codebase as a black box.
 
 Testing of code's functionality, often with one eye to the internals and how they might fail.
 
-## Reason
+### Result-oriented
+
+Testing only the end result of many different actions, possibly including external behaviours.
+
+## Reason: why are we testing?
 
 Write the test in order to satisfy the following business requirement(s):
 
@@ -59,6 +63,10 @@ Determine the capability of the testable code to withstand heavy traffic.
 Preface more granular (and possibly slower) testing, by looking for simple but severe failures only, possibly using a subset of the overall test suite.
 
 *(Sometimes used instead to describe a subset of [Performance testing](#performance), when the traffic is increased until the code "catches fire.")*
+
+## Tool: how are we testing?
+
+Different tools—to test backend code, or frameworks, or proxies, or UIs—are beyond the scope of this document.
 
 -----------
 
